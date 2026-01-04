@@ -1,0 +1,119 @@
+package dao
+
+import (
+	"github.com/go-framework-v2/go-backnormal-grpc/src/internal/conf/model/bo"
+
+	"github.com/go-redis/redis/v8"
+	"gorm.io/gorm"
+)
+
+// 设计要点：
+// 接口组合实现扩展
+// 结构体嵌入实现代码复用
+type (
+	// 基础接口 + 扩展方法
+	ConfTypeHisDao interface {
+		// 基础接口，基于单表
+		Truncate() error                           // 清空表并重置自增主键
+		FindOne(id int) (*bo.ConfTypeHisBo, error) // 根据id查询
+		FindOneByUk()                              // 根据唯一键查询
+		Insert(obj bo.ConfTypeHisBo) (*bo.ConfTypeHisBo, error)
+		InsertBatch(objs []bo.ConfTypeHisBo) (int64, error) // 500条以内
+		Update(obj bo.ConfTypeHisBo) (*bo.ConfTypeHisBo, error)
+
+		// 扩展接口
+	}
+
+	// 自定义模型实现
+	customConfTypeHisDao struct {
+		// 默认实现
+		db *gorm.DB // 不带事务的基础数据库连接
+		tx *gorm.DB // 带事务的数据库连接
+
+		// 扩展实现
+		cache *redis.Client // 新增redis缓存
+	}
+)
+
+// 对外暴露扩展接口
+func NewConfTypeHisDao(db *gorm.DB, tx *gorm.DB, cache *redis.Client) ConfTypeHisDao {
+	return &customConfTypeHisDao{
+		db:    db,
+		tx:    tx,
+		cache: cache,
+	}
+}
+
+// 基础方法
+// Truncate 清空表并重置自增主键
+func (d *customConfTypeHisDao) Truncate() error {
+	// 临时禁用外键检查
+	if err := d.tx.Exec("SET FOREIGN_KEY_CHECKS = 0").Error; err != nil {
+		return err
+	}
+
+	// 1. 清空表数据
+	if err := d.tx.Exec("TRUNCATE TABLE " + "conf_type_his").Error; err != nil {
+		return err
+	}
+
+	// 2. 重置自增主键为1
+	if err := d.tx.Exec("ALTER TABLE " + "conf_type_his" + " AUTO_INCREMENT = 1").Error; err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// FindOne 根据id查询
+func (d *customConfTypeHisDao) FindOne(id int) (*bo.ConfTypeHisBo, error) {
+	var obj bo.ConfTypeHisBo
+
+	err := d.db.First(&obj, id).Error
+	if err != nil {
+		if err == gorm.ErrRecordNotFound {
+			return nil, nil
+		}
+		return nil, err
+	}
+
+	return &obj, err
+}
+
+// FindOneByUk 根据唯一键查询
+func (d *customConfTypeHisDao) FindOneByUk() {
+
+}
+
+// Insert 插入 (事务内)
+func (d *customConfTypeHisDao) Insert(obj bo.ConfTypeHisBo) (*bo.ConfTypeHisBo, error) {
+	err := d.tx.Create(&obj).Error
+	if err != nil {
+		return nil, err
+	}
+
+	return &obj, err
+}
+
+// InsertBatch 插入 (事务内)
+func (d *customConfTypeHisDao) InsertBatch(objs []bo.ConfTypeHisBo) (int64, error) {
+	err := d.tx.Create(&objs).Error
+	if err != nil {
+		return 0, err
+	}
+
+	return int64(len(objs)), err
+}
+
+// Update 更新(事务内)
+func (d *customConfTypeHisDao) Update(obj bo.ConfTypeHisBo) (*bo.ConfTypeHisBo, error) {
+	// 只做字段值有值而不是默认值的更新
+	err := d.tx.Model(&obj).Updates(obj).Error
+	if err != nil {
+		return nil, err
+	}
+
+	return &obj, err
+}
+
+// 扩展方法

@@ -1,0 +1,5 @@
+2025-09-22 16:52:30.499 ERROR service/getInsertPerson.go:44> 插入失败, 事务回滚, err: 插入失败
+2025-09-22 16:52:30.499 ERROR service/login.go:37> 插入失败
+2025-09-22 16:53:50.458 ERROR service/getInsertPerson.go:44> 插入失败, 事务回滚, err: 插入失败
+2025-09-22 16:53:50.458 ERROR service/login.go:37> 插入失败
+2025-09-22 16:57:26.146 ERROR tool/paraIn.go:21> gender is invalid

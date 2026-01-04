@@ -1,0 +1,9 @@
+POST http://localhost:18000/login
+Content-Type: application/json
+
+{
+    "name": "刘画",
+    "idcard": "36242820020903004X",
+    "age": 23,
+    "gender": "2"
+}

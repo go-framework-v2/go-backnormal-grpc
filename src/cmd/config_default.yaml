@@ -1,0 +1,10 @@
+project: 
+  name: github.com/go-framework-v2/go-backnormal-grpc   # 服务名称，与go.mod中的module名称一致
+  port: 18000   # 服务端口,web服务一般使用18xxx端口
+  version: 1.2.0   # 服务版本
+ 
+gin:
+  release: true  # 是否开启gin的release模式，生产环境建议开启
+
+log:
+  root: ./log/  # 日志文件存放目录

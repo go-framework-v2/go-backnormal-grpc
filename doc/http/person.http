@@ -1,0 +1,7 @@
+POST http://localhost:18000/person/list
+Content-Type: application/json
+
+{
+    "page": 1,
+    "pageSize": 30
+}

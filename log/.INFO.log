@@ -1,0 +1,634 @@
+2025-09-22 14:14:08.474 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 14:14:08.474 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 14:14:08.474 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 14:14:08.474 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 14:14:08.474 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 14:14:08.474 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:29> --  {"host": "111111"}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:30> --  {"port": 111111}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:31> --  {"dbname": "111111"}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:32> --  {"username": "111111"}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:34> --  {"maxconn": 111111}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:35> --  {"minconn": 111111}
+2025-09-22 14:14:08.474 INFO config/mysqlConfig.go:36> --  {"maxlife": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:29> --  {"host": "111111"}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:30> --  {"port": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:32> --  {"db": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:33> --  {"pool_size": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:34> --  {"min_idle_conns": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:35> --  {"max_retries": 111111}
+2025-09-22 14:14:08.474 INFO config/redisConfig.go:36> --  {"max_conn_age": 111111}
+2025-09-22 14:14:08.474 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 14:14:50.229 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 14:14:50.230 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 14:14:50.230 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 14:14:50.230 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 14:14:50.230 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 14:14:50.230 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:29> --  {"host": ""}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:30> --  {"port": 0}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:31> --  {"dbname": ""}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:32> --  {"username": ""}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:34> --  {"maxconn": 0}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:35> --  {"minconn": 0}
+2025-09-22 14:14:50.230 INFO config/mysqlConfig.go:36> --  {"maxlife": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:29> --  {"host": ""}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:30> --  {"port": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2025-09-22 14:14:50.230 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 14:14:50.230 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 14:15:07.061 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 14:15:07.062 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 14:15:07.062 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 14:15:07.062 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 14:15:07.062 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 14:15:07.062 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:29> --  {"host": "111111"}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:30> --  {"port": 111111}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:31> --  {"dbname": "111111"}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:32> --  {"username": "111111"}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:34> --  {"maxconn": 111111}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:35> --  {"minconn": 111111}
+2025-09-22 14:15:07.062 INFO config/mysqlConfig.go:36> --  {"maxlife": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:29> --  {"host": "111111"}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:30> --  {"port": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:32> --  {"db": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:33> --  {"pool_size": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:34> --  {"min_idle_conns": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:35> --  {"max_retries": 111111}
+2025-09-22 14:15:07.062 INFO config/redisConfig.go:36> --  {"max_conn_age": 111111}
+2025-09-22 14:15:07.062 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:08:35.256 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:08:35.256 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:08:35.256 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:08:35.256 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:08:35.256 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:08:35.256 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:08:35.256 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:08:35.256 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:08:35.256 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:09:31.290 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:09:31.290 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:09:31.290 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:09:31.290 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:09:31.290 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:09:31.290 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:09:31.290 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:09:31.290 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:09:31.290 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:09:31.290 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:09:31.290 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:09:31.290 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:09:31.291 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:09:31.291 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:09:31.291 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:09:31.291 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:09:31.304 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:09:31.304 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:09:31.304 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:10:07.253 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:10:07.254 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:10:07.254 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:10:07.254 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:10:07.254 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:10:07.254 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:10:07.254 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:10:07.254 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:10:07.254 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:10:07.257 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:10:07.257 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:10:07.257 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:12:41.562 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:12:41.562 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:12:41.562 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:12:41.562 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:12:41.562 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:12:41.562 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:12:41.562 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:12:41.562 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:12:41.562 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:12:41.582 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:12:41.582 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:12:41.582 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:13:06.061 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:13:06.062 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:13:06.062 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:13:06.062 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:13:06.062 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:13:06.062 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:13:06.062 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:13:06.062 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:13:06.062 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:13:06.067 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:13:06.067 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:13:06.067 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:13:58.479 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:13:58.480 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:13:58.480 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:13:58.480 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:13:58.480 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:13:58.480 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:13:58.480 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:13:58.480 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:13:58.480 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:13:58.488 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:13:58.488 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:13:58.488 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:15:28.440 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:15:28.440 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:15:28.440 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:15:28.441 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:15:28.441 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:15:28.441 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:15:28.441 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:15:28.441 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:15:28.441 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:15:28.447 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:15:28.447 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:15:28.447 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:16:02.082 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:16:02.082 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:16:02.082 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:16:02.082 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:16:02.082 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:16:02.083 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:16:02.083 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:16:02.083 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:16:02.083 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:16:02.083 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:16:02.083 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:16:02.083 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:16:02.083 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:16:02.083 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:16:02.087 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:16:02.087 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:16:02.087 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:16:54.388 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:16:54.388 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:16:54.388 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:16:54.388 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:16:54.389 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:16:54.389 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:16:54.389 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:16:54.389 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:16:54.389 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:16:54.396 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:16:54.396 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:16:54.396 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:51:36.974 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:51:36.974 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:51:36.974 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:51:36.974 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:51:36.974 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:51:36.974 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:51:36.974 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:51:36.974 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:51:36.974 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:51:36.982 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:51:36.982 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:51:36.982 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:53:47.166 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:53:47.167 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:53:47.167 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:53:47.167 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:53:47.167 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:53:47.167 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:53:47.167 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:53:47.167 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:53:47.167 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:53:47.177 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:53:47.177 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:53:47.177 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-09-22 16:57:23.731 INFO config/config.go:39> ++++++++++++++ config info begin: ++++++++++++++
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:80> --  {"env": "dev"}
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-09-22 16:57:23.732 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/go-framework_github/go-backnormal-v2/go-backnormal"}
+2025-09-22 16:57:23.732 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-09-22 16:57:23.732 INFO config/ginConfig.go:15> --  {"release": true}
+2025-09-22 16:57:23.732 INFO config/logConfig.go:14> ------------ log ------------
+2025-09-22 16:57:23.732 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:29> --  {"host": "192.168.1.99"}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:30> --  {"port": 13301}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:31> --  {"dbname": "biz_db"}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:32> --  {"username": "root"}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-09-22 16:57:23.732 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:29> --  {"host": "112.124.47.77"}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:30> --  {"port": 16379}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:33> --  {"pool_size": 10}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:34> --  {"min_idle_conns": 10}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:35> --  {"max_retries": 3}
+2025-09-22 16:57:23.732 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-09-22 16:57:23.732 INFO config/config.go:48> ++++++++++++++ config info end: ++++++++++++++
+2025-09-22 16:57:23.742 INFO res/res.go:66> ++++++++++++++ resource info begin: ++++++++++++++
+2025-09-22 16:57:23.742 INFO res/res.go:68> --  {"name": "res-MysqlDB"}
+2025-09-22 16:57:23.742 INFO res/res.go:70> ++++++++++++++ resource info end: ++++++++++++++
+2025-10-30 10:49:00.882 INFO config/config.go:43> ++++++++++++++ config info begin: ++++++++++++++
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-10-30 10:49:00.883 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/github_go-framework-v2/go-backnormal"}
+2025-10-30 10:49:00.883 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-10-30 10:49:00.883 INFO config/ginConfig.go:15> --  {"release": true}
+2025-10-30 10:49:00.883 INFO config/logConfig.go:14> ------------ log ------------
+2025-10-30 10:49:00.883 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:29> --  {"host": "rm-bp1ec3mzh5md190s1do.mysql.rds.aliyuncs.com"}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:30> --  {"port": 3306}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:31> --  {"dbname": "middle_db"}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:32> --  {"username": "liuhua"}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-10-30 10:49:00.883 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:29> --  {"host": ""}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:30> --  {"port": 0}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2025-10-30 10:49:00.883 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-10-30 10:49:00.883 INFO config/mongodbConfig.go:22> ------------ mongodb ------------
+2025-10-30 10:49:00.883 INFO config/mongodbConfig.go:23> --  {"host": "127.0.0.1"}
+2025-10-30 10:49:00.883 INFO config/mongodbConfig.go:24> --  {"port": 27017}
+2025-10-30 10:49:00.883 INFO config/mongodbConfig.go:25> --  {"db": "test_1029"}
+2025-10-30 10:49:00.883 INFO config/mongodbConfig.go:26> --  {"username": "appuser"}
+2025-10-30 10:49:00.883 INFO config/config.go:54> ++++++++++++++ config info end: ++++++++++++++
+2025-10-30 10:49:01.903 INFO res/res.go:71> ++++++++++++++ resource info begin: ++++++++++++++
+2025-10-30 10:49:01.903 INFO res/res.go:73> --  {"name": "res-MysqlDB"}
+2025-10-30 10:49:01.903 INFO res/res.go:73> --  {"name": "res-MongoDB"}
+2025-10-30 10:49:01.903 INFO res/res.go:75> ++++++++++++++ resource info end: ++++++++++++++
+2025-10-30 13:35:25.272 INFO config/config.go:43> ++++++++++++++ config info begin: ++++++++++++++
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-10-30 13:35:25.272 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/github_go-framework-v2/go-backnormal"}
+2025-10-30 13:35:25.272 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-10-30 13:35:25.272 INFO config/ginConfig.go:15> --  {"release": true}
+2025-10-30 13:35:25.272 INFO config/logConfig.go:14> ------------ log ------------
+2025-10-30 13:35:25.272 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:29> --  {"host": "rm-bp1ec3mzh5md190s1do.mysql.rds.aliyuncs.com"}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:30> --  {"port": 3306}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:31> --  {"dbname": "middle_db"}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:32> --  {"username": "liuhua"}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-10-30 13:35:25.272 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:29> --  {"host": ""}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:30> --  {"port": 0}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2025-10-30 13:35:25.272 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-10-30 13:35:25.272 INFO config/mongodbConfig.go:22> ------------ mongodb ------------
+2025-10-30 13:35:25.272 INFO config/mongodbConfig.go:23> --  {"host": "127.0.0.1"}
+2025-10-30 13:35:25.272 INFO config/mongodbConfig.go:24> --  {"port": 27017}
+2025-10-30 13:35:25.272 INFO config/mongodbConfig.go:25> --  {"db": "test_1029"}
+2025-10-30 13:35:25.272 INFO config/mongodbConfig.go:26> --  {"username": "appuser"}
+2025-10-30 13:35:25.272 INFO config/config.go:54> ++++++++++++++ config info end: ++++++++++++++
+2025-10-30 13:35:27.265 INFO res/res.go:71> ++++++++++++++ resource info begin: ++++++++++++++
+2025-10-30 13:35:27.265 INFO res/res.go:73> --  {"name": "res-MysqlDB"}
+2025-10-30 13:35:27.265 INFO res/res.go:73> --  {"name": "res-MongoDB"}
+2025-10-30 13:35:27.265 INFO res/res.go:75> ++++++++++++++ resource info end: ++++++++++++++
+2025-10-30 14:14:05.919 INFO config/config.go:43> ++++++++++++++ config info begin: ++++++++++++++
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-10-30 14:14:05.920 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/github_go-framework-v2/go-backnormal"}
+2025-10-30 14:14:05.920 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-10-30 14:14:05.920 INFO config/ginConfig.go:15> --  {"release": true}
+2025-10-30 14:14:05.920 INFO config/logConfig.go:14> ------------ log ------------
+2025-10-30 14:14:05.920 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:29> --  {"host": "rm-bp1ec3mzh5md190s1do.mysql.rds.aliyuncs.com"}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:30> --  {"port": 3306}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:31> --  {"dbname": "middle_db"}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:32> --  {"username": "liuhua"}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-10-30 14:14:05.920 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:29> --  {"host": ""}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:30> --  {"port": 0}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2025-10-30 14:14:05.920 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-10-30 14:14:05.920 INFO config/mongodbConfig.go:22> ------------ mongodb ------------
+2025-10-30 14:14:05.920 INFO config/mongodbConfig.go:23> --  {"host": "127.0.0.1"}
+2025-10-30 14:14:05.920 INFO config/mongodbConfig.go:24> --  {"port": 27017}
+2025-10-30 14:14:05.920 INFO config/mongodbConfig.go:25> --  {"db": "test_1029"}
+2025-10-30 14:14:05.920 INFO config/mongodbConfig.go:26> --  {"username": "appuser"}
+2025-10-30 14:14:05.920 INFO config/config.go:54> ++++++++++++++ config info end: ++++++++++++++
+2025-10-30 14:14:06.458 INFO res/res.go:71> ++++++++++++++ resource info begin: ++++++++++++++
+2025-10-30 14:14:06.459 INFO res/res.go:73> --  {"name": "res-MysqlDB"}
+2025-10-30 14:14:06.459 INFO res/res.go:73> --  {"name": "res-MongoDB"}
+2025-10-30 14:14:06.459 INFO res/res.go:75> ++++++++++++++ resource info end: ++++++++++++++
+2025-10-30 14:33:59.376 INFO config/config.go:43> ++++++++++++++ config info begin: ++++++++++++++
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:77> --  {"name": "go-backnormal"}
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2025-10-30 14:33:59.376 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code/my_code/github_go-framework-v2/go-backnormal"}
+2025-10-30 14:33:59.376 INFO config/ginConfig.go:14> ------------ gin ------------
+2025-10-30 14:33:59.376 INFO config/ginConfig.go:15> --  {"release": true}
+2025-10-30 14:33:59.376 INFO config/logConfig.go:14> ------------ log ------------
+2025-10-30 14:33:59.376 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2025-10-30 14:33:59.376 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2025-10-30 14:33:59.376 INFO config/mysqlConfig.go:29> --  {"host": "rm-bp1ec3mzh5md190s1do.mysql.rds.aliyuncs.com"}
+2025-10-30 14:33:59.376 INFO config/mysqlConfig.go:30> --  {"port": 3306}
+2025-10-30 14:33:59.376 INFO config/mysqlConfig.go:31> --  {"dbname": "middle_db"}
+2025-10-30 14:33:59.376 INFO config/mysqlConfig.go:32> --  {"username": "liuhua"}
+2025-10-30 14:33:59.377 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2025-10-30 14:33:59.377 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2025-10-30 14:33:59.377 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:28> ------------ redis ------------
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:29> --  {"host": ""}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:30> --  {"port": 0}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:32> --  {"db": 0}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2025-10-30 14:33:59.377 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2025-10-30 14:33:59.377 INFO config/mongodbConfig.go:22> ------------ mongodb ------------
+2025-10-30 14:33:59.377 INFO config/mongodbConfig.go:23> --  {"host": "127.0.0.1"}
+2025-10-30 14:33:59.377 INFO config/mongodbConfig.go:24> --  {"port": 27017}
+2025-10-30 14:33:59.377 INFO config/mongodbConfig.go:25> --  {"db": "test_1029"}
+2025-10-30 14:33:59.377 INFO config/mongodbConfig.go:26> --  {"username": "appuser"}
+2025-10-30 14:33:59.377 INFO config/config.go:54> ++++++++++++++ config info end: ++++++++++++++
+2025-10-30 14:34:00.283 INFO res/res.go:71> ++++++++++++++ resource info begin: ++++++++++++++
+2025-10-30 14:34:00.283 INFO res/res.go:73> --  {"name": "res-MysqlDB"}
+2025-10-30 14:34:00.283 INFO res/res.go:73> --  {"name": "res-MongoDB"}
+2025-10-30 14:34:00.283 INFO res/res.go:75> ++++++++++++++ resource info end: ++++++++++++++
+2026-01-04 10:39:27.644 INFO config/config.go:43> ++++++++++++++ config info begin: ++++++++++++++
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:77> --  {"name": "github.com/go-framework-v2/go-backnormal-grpc"}
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:78> --  {"port": 18000}
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:79> --  {"version": "1.2.0"}
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:80> --  {"env": "product"}
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:81> --  {"host": "192.168.1.99"}
+2026-01-04 10:39:27.645 INFO viper/baseConfig.go:82> --  {"work_path": "/Users/huanlema/Documents/Code_github/go-framework-v2/go-backnormal-grpc"}
+2026-01-04 10:39:27.645 INFO config/ginConfig.go:14> ------------ gin ------------
+2026-01-04 10:39:27.645 INFO config/ginConfig.go:15> --  {"release": true}
+2026-01-04 10:39:27.645 INFO config/logConfig.go:14> ------------ log ------------
+2026-01-04 10:39:27.645 INFO config/logConfig.go:15> --  {"root": "./log/"}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:28> ------------ mysql ------------
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:29> --  {"host": "rm-bp1ec3mzh5md190s1do.mysql.rds.aliyuncs.com"}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:30> --  {"port": 3306}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:31> --  {"dbname": "middle_db"}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:32> --  {"username": "liuhua"}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:34> --  {"maxconn": 100}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:35> --  {"minconn": 10}
+2026-01-04 10:39:27.645 INFO config/mysqlConfig.go:36> --  {"maxlife": 108000}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:28> ------------ redis ------------
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:29> --  {"host": ""}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:30> --  {"port": 0}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:32> --  {"db": 0}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:33> --  {"pool_size": 0}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:34> --  {"min_idle_conns": 0}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:35> --  {"max_retries": 0}
+2026-01-04 10:39:27.645 INFO config/redisConfig.go:36> --  {"max_conn_age": 0}
+2026-01-04 10:39:27.645 INFO config/mongodbConfig.go:22> ------------ mongodb ------------
+2026-01-04 10:39:27.645 INFO config/mongodbConfig.go:23> --  {"host": "127.0.0.1"}
+2026-01-04 10:39:27.645 INFO config/mongodbConfig.go:24> --  {"port": 27017}
+2026-01-04 10:39:27.645 INFO config/mongodbConfig.go:25> --  {"db": "test_1029"}
+2026-01-04 10:39:27.645 INFO config/mongodbConfig.go:26> --  {"username": "appuser"}
+2026-01-04 10:39:27.645 INFO config/config.go:54> ++++++++++++++ config info end: ++++++++++++++
